@@ -261,6 +261,12 @@ a {
     color: #fff;
 }
 
+.play {
+    position: absolute;
+    left: 730px;
+    top: 1225px;
+}
+
 .text-block h3{
     text-transform: uppercase;
     font-family: 'Robotonormal900'; 
@@ -270,6 +276,8 @@ a {
     padding: 10px 20px;
     background: #000;
     max-width: 120px;
+    margin-top: 0;
+    margin-bottom: 20px;
 }
 
 .slider-news p {
@@ -284,12 +292,16 @@ a {
     padding-top: 70px;
 }
 
-
+.cover-block {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 33%;
+}
 
 .text-bg h2{
     color: #000;
     font-size: 20px;
-    margin-top: 30px;
+    margin-top: 0;
     margin-bottom: 10px;
 }
 
@@ -297,7 +309,8 @@ a {
 .text-bg p{
     color: #777777;
     font-size: 18px;
-    margin-top: 35px;
+    margin-top: 25px;
+    margin-bottom: 0;
 }
 
 .text-bg span{
@@ -308,38 +321,78 @@ a {
     left: 6px;
 }
 
-#content-container  {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-
-
+.img-slide {
+margin-right: 100px;
 }
 
-#content-container .text-block-al {
-    width: 33.33%;
+#content-container  { 
+    display: flex;
+ 
+}
+
+.text-block-al {
+    margin: 0 30px 30px 0;
+}
 
 
+
+.hover-block h3{
+    text-transform: uppercase;
+    font-family: 'Robotonormal900'; 
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #000;
+    max-width: 120px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.hover-block h2{
+    font-family: 'Robotonormal900'; 
+    color: #fff;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.hover-block p{
+    color: #fff;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+.shadow{
+    background: black;
+    opacity:0.85;
+}
+
+.back-img {
+    background: url('img/backgroungImage.png');
+}
+
+.hover-block {
+    padding: 50px;
 }
 
 .text-block {
-    margin: 0 30px 30px 0;
     background: #fff;
     padding: 50px;
 }
 
 
-.text-block #communication {
+ #communication {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
-.text-block #communication .comm img{
+ #communication .comm img{
     padding: 0 8px;
 }
 
-.text-block #communication #date i{
+#communication #date i{
     font-family: 'Robotonormal300';
     font-style: normal;
     font-size: 13px;
@@ -350,12 +403,13 @@ a {
 }
 
 
-.text-block #communication {
-    margin-top: 50px;
+
+ #communication {
+    margin-top: 25px;
 }
 
 #image img {
-    max-width: 350px;
+    max-width: 360px;
     margin: 0;
 }
 
